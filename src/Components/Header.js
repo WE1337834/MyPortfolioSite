@@ -11,10 +11,10 @@ class Header extends React.Component {
 				</a>
 
 				<nav className='Header__nav'>
-					<a href='#' className='Header__link'>Главная</a>
-					<a href='#' className='Header__link'>Блог</a>
-					<a href='#' className='Header__link'>Обо мне</a>
-					<a href='#' className='Header__link'>Контакты</a>
+					<a href='/' className='Header__link'>Главная</a>
+					<a href='/' className='Header__link'>Блог</a>
+					<a href='/' className='Header__link'>Обо мне</a>
+					<a href='/' className='Header__link'>Контакты</a>
 				</nav>
 				
 			</header>
