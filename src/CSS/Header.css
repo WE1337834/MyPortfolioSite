@@ -1,0 +1,43 @@
+:root {
+	--border_color: linear-gradient(
+		to bottom right,
+		rgba(0, 23, 67, 0.5),
+		rgba(20, 84, 148, 0.5)
+	);
+	--box_shadow: 3px 3px 5px rgba(0, 23, 67, 0.575);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.Header {
+	width: 80%;
+	padding: 10px 10px;
+	border: 2px solid transparent;
+	border-image: var(--border_color);
+	box-shadow: var(--box_shadow);
+	border-image-slice: 1;
+	border-image-outset: 2px;
+	display: flex;
+	margin: 10px auto;
+}
+
+.Header__logo {
+	width: 60px;
+	border-radius: 100%;
+}
+.Header__nav{
+	float: left;
+	margin-left: 30px;
+	padding: 15px;
+	display: flex;
+	gap: 15px;
+
+}
+.Header__link{
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(16, 66, 158);
+	
+}
