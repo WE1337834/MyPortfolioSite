@@ -2,3 +2,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background: #b5f5ffb7;
 }
+main {
+	border: 2px solid black;
+	width: 80%;
+	padding: 10px 10px;
+	display: flex;
+	margin: 30px auto;
+}

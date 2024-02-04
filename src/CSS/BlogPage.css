@@ -1,0 +1,43 @@
+.Post {
+	width: 70%;
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.Post__header {
+	height: 60px;
+	width: 90%;
+}
+.Post__header_name_date {
+	display: inline-block;
+	max-height: 60px;
+	padding: 10px;
+}
+.Post_header_img {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	float: left;
+}
+.Post__header_nameGroup {
+	color: blue;
+}
+
+.Post__link {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.Post__message {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.Post__message_img {
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: var(--box_shadow);
+}
