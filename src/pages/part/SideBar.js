@@ -45,6 +45,7 @@ export default class SideBar extends React.Component {
 								href='https://t.me/path_WE1337'
 								className='Side__name'
 								target='_blank'
+								rel='noreferrer'
 							>
 								Мой путь в IT
 							</a>
@@ -52,6 +53,7 @@ export default class SideBar extends React.Component {
 								href='https://t.me/path_WE1337'
 								className='Side__score_followers'
 								target='_blank'
+								rel='noreferrer'
 							>
 								Подписчиков: 2
 							</a>
