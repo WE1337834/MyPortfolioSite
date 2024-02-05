@@ -10,6 +10,7 @@ export default class SideBar extends React.Component {
 						<img
 							src='https://sun3-18.userapi.com/s/v1/ig2/7e_WY-11W18hyyw9FmlkQ6VMCc8zLZKGOuRhhqPlTZwbEit1oXgvjlwoQjmxyAnHKtNfO53PGkoibHrR6FoDzFJ7.jpg?size=100x100&quality=95&crop=135,0,520,520&ava=1'
 							className='Side__img'
+							alt=''
 						/>
 						<div className='Side__name_score_followers'>
 							<a
@@ -37,6 +38,7 @@ export default class SideBar extends React.Component {
 						<img
 							src='https://sun3-18.userapi.com/s/v1/ig2/7e_WY-11W18hyyw9FmlkQ6VMCc8zLZKGOuRhhqPlTZwbEit1oXgvjlwoQjmxyAnHKtNfO53PGkoibHrR6FoDzFJ7.jpg?size=100x100&quality=95&crop=135,0,520,520&ava=1'
 							className='Side__img'
+							alt=''
 						/>
 						<div className='Side__name_score_followers'>
 							<a
