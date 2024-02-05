@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import group from '../img/MyGroup.jpg'
-import SideBar from './part/SideBar'
+import SideBar from '../Components/SideBar'
 import '../CSS/BlogPage.css'
 
 export default class Blog extends Component {

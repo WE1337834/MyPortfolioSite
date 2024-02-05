@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/News.css'
-import SideBar from './part/SideBar'
+import SideBar from '../Components/SideBar'
 
 class News extends React.Component {
 	render() {
