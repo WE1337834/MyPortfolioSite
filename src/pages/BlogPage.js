@@ -9,7 +9,7 @@ export default class Blog extends Component {
 			<main>
 				<article className='Post'>
 					<header className='Post__header'>
-						<img src={group} className='Post_header_img' />
+						<img src={group} className='Post_header_img' alt='' />
 						<div className='Post__header_name_date'>
 							<p className='Post__header_nameGroup'>Мой путь в IT</p>
 							<time className='Post__date' dateTime='2024-02-03T22:45'>
@@ -36,6 +36,7 @@ export default class Blog extends Component {
 							VK-группа
 						</a>
 						<img
+							alt=''
 							className='Post__message_img'
 							src='https://sun3-24.userapi.com/impg/l-8tYXUMLcOduNFoKPnU9-b7RECYquoyKiXp4A/dTo_h3G8m5A.jpg?size=1866x922&quality=96&sign=ff13ec6112f8e48102eccce8259264cd&type=album'
 						/>
