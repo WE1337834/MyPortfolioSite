@@ -1,3 +1,6 @@
+:root{
+	--background_link: rgba(15, 24, 43, 0.164);
+}
 .Post {
 	width: 70%;
 	border: 2px solid black;
@@ -18,9 +21,9 @@
 	padding: 10px;
 }
 .Post_header_img {
-	width: 60px;
-	height: 60px;
-	border-radius: 100%;
+	width: 70px;
+	aspect-ratio: 1;
+	border-radius: 50%;
 	float: left;
 }
 .Post__header_nameGroup {
@@ -28,8 +31,13 @@
 }
 
 .Post__link {
-	display: grid;
-	grid-template-columns: 1fr;
+	display: inline;
+	width: 16%;
+	transition: 0.4s;
+}
+.Post__link:hover {
+	background: var(--background_link);
+	box-shadow: var(--box_shadow);
 }
 .Post__message {
 	display: flex;

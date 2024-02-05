@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 import logo from '../img/logo.png'
@@ -8,6 +8,10 @@ import News from '../pages/News'
 import '../CSS/Header.css'
 
 class Header extends React.Component {
+	
+	
+	
+
 	render() {
 		return (
 			<>

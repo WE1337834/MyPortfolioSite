@@ -1,11 +1,9 @@
 import { Component } from 'react'
 import group from '../img/MyGroup.jpg'
-import post from '../img/post/240203.jpg'
-
+import SideBar from './part/SideBar'
 import '../CSS/BlogPage.css'
 
 export default class Blog extends Component {
-	
 	render() {
 		return (
 			<main>
@@ -37,9 +35,14 @@ export default class Blog extends Component {
 						<a className='Post__link' href='https://vk.com/path_we1337'>
 							VK-группа
 						</a>
-						<img className='Post__message_img' src={post} />
+						<img
+							className='Post__message_img'
+							src='https://sun3-24.userapi.com/impg/l-8tYXUMLcOduNFoKPnU9-b7RECYquoyKiXp4A/dTo_h3G8m5A.jpg?size=1866x922&quality=96&sign=ff13ec6112f8e48102eccce8259264cd&type=album'
+						/>
 					</div>
 				</article>
+
+				<SideBar />
 			</main>
 		)
 	}

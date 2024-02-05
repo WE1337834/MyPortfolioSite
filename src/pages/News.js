@@ -1,5 +1,6 @@
 import React from 'react'
 import '../CSS/News.css'
+import SideBar from './part/SideBar'
 
 class News extends React.Component {
 	render() {
@@ -14,7 +15,10 @@ class News extends React.Component {
 								<div className='News__changes_site'>
 									<ul className='News__list'>
 										<li className='News__list_change'>
-											Разработка главной страницы
+											Сделан начальный интерфейс страницы "Блог"
+										</li>
+										<li className='News__list_change'>
+											Добавлена боковая панель
 										</li>
 									</ul>
 								</div>
@@ -24,12 +28,16 @@ class News extends React.Component {
 								<div className='News__changes_me'>
 									<ul className='News__list'>
 										<li className='News__list_change'>Учу React</li>
+										<li className='News__list_change'>
+											Поработал с react-router-dom
+										</li>
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<SideBar />
 			</main>
 		)
 	}
