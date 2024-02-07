@@ -7,7 +7,7 @@ body {
 	background: #b5f5ffb7;
 }
 main {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	width: 80%;
 	padding: 10px 10px;
 	display: flex;
