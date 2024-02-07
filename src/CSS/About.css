@@ -1,0 +1,30 @@
+@import 'root.css';
+
+.About{
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+h1, h2{
+  color: var(--color_text);
+}
+.About__header{
+    font-size: 30px;
+}
+.About__h2{
+  font-size: 30px;
+}
+.About__info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.About__list{
+  padding: 0 0 0 3%;
+}
+.About__list_item{
+  color: rgb(6, 6, 107);
+}

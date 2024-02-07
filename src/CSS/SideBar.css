@@ -1,7 +1,4 @@
-:root {
-	--border_bottom: 2px solid rgba(128, 128, 128, 0.377);
-	--background_item: rgba(4, 81, 223, 0.397);
-}
+@import 'root.css';
 .Side__Vk_Tg_group {
 	display: flex;
 	flex-direction: column;

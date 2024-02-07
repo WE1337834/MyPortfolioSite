@@ -1,6 +1,5 @@
-:root{
-	--background_link: rgba(15, 24, 43, 0.164);
-}
+@import 'root.css';
+
 .Post {
 	width: 70%;
 	border: 2px solid black;

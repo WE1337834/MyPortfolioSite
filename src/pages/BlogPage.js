@@ -7,7 +7,7 @@ export default class Blog extends Component {
 	render() {
 		return (
 			<main>
-				<article className='Post'>
+				<section className='Post'>
 					<header className='Post__header'>
 						<img src={group} className='Post_header_img' alt='' />
 						<div className='Post__header_name_date'>
@@ -41,7 +41,7 @@ export default class Blog extends Component {
 							src='https://sun3-24.userapi.com/impg/l-8tYXUMLcOduNFoKPnU9-b7RECYquoyKiXp4A/dTo_h3G8m5A.jpg?size=1866x922&quality=96&sign=ff13ec6112f8e48102eccce8259264cd&type=album'
 						/>
 					</div>
-				</article>
+				</section>
 
 				<SideBar />
 			</main>
