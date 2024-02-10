@@ -15,7 +15,7 @@ export default class SideBar extends React.Component {
 						<div className='Side__name_score_followers'>
 							<a
 								href='https://vk.com/path_we1337'
-								className='Side__name'
+								className='Side__name lng-path'
 								target='_blank'
 								rel='noreferrer'
 							>
@@ -27,7 +27,7 @@ export default class SideBar extends React.Component {
 								target='_blank'
 								rel='noreferrer'
 							>
-								Подписчиков: 6
+								<span className='lng-subscribers'>Подписчиков: </span>6
 							</a>
 						</div>
 					</div>
@@ -43,7 +43,7 @@ export default class SideBar extends React.Component {
 						<div className='Side__name_score_followers'>
 							<a
 								href='https://t.me/path_WE1337'
-								className='Side__name'
+								className='Side__name lng-path'
 								target='_blank'
 								rel='noreferrer'
 							>
@@ -55,7 +55,7 @@ export default class SideBar extends React.Component {
 								target='_blank'
 								rel='noreferrer'
 							>
-								Подписчиков: 2
+								<span className='lng-subscribers'>Подписчиков: </span> 2
 							</a>
 						</div>
 					</div>

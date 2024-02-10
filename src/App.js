@@ -8,9 +8,9 @@ class App extends React.Component {
 		return (
 			<>
 				<Header />
-
 			</>
 		)
 	}
 }
+
 export default App

@@ -12,12 +12,14 @@ export default class Contacts extends Component {
 		return (
 			<main>
 				<section className='Contacts'>
-					<h1 className='Contacts__h1'>Контакты</h1>
+					<h1 className='Contacts__h1 lng-contacts'>Контакты</h1>
 					<div className='Contacts__contacts_info'>
 						<div className='Contacts__contacts_link'>
 							<h2 className='Contacts__h2'>
 								<img src={user} alt='user' className='Contacts__h2_img' />
-								<span className='Contacts__h2_text'>Личные</span>
+								<span className='Contacts__h2_text lng-personal_contacts'>
+									Личные
+								</span>
 							</h2>
 							<nav className='Contacts__link'>
 								<a
@@ -65,7 +67,9 @@ export default class Contacts extends Component {
 									alt='telegram-app'
 									className='Contacts__h2_img'
 								/>
-								<span className='Contacts__h2_text'>Группы</span>
+								<span className='Contacts__h2_text lng-groups_contacts'>
+									Группы
+								</span>
 							</h2>
 							<nav className='Contacts__link'>
 								<a

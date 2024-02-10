@@ -6,30 +6,33 @@ export default class About extends Component {
 			<main>
 				<section className='About'>
 					<header className='About__header'>
-						<h1 className='About__h1'>Обо мне</h1>
+						<h1 className='About__h1 lng-about'>Обо мне</h1>
 					</header>
 					<div className='About__info'>
 						<div className='About__name_exp'>
-							<p className='About__name'>Я Кузьма, мне 15 лет.</p>
-							<p className='About__exp'>
+							<p className='About__name lng-about_me'>
+								Я Кузьма, мне 15 лет.
+								<br />
 								Начинающий Front-end разработчик. Увлекаюсь
 								веб-программированием около года.
 							</p>
 						</div>
 
 						<div className='About__lang'>
-							<h2 className='About__h2'>Языки и технологии</h2>
+							<h2 className='About__h2 lng-languages_and_technologies'>
+								Языки и технологии
+							</h2>
 							<ul className='About__list'>
-								<li className='About__list_item'>
+								<li className='About__list_item lng-programming_languages'>
 									Языки программирования: HTML, CSS, JavaScript, PHP
 								</li>
-								<li className='About__list_item'>
+								<li className='About__list_item lng-'>
 									Технологии: MySQL, Git, AJAX, React, React-router
 								</li>
 							</ul>
 						</div>
 						<div className='About__contacts'>
-							<h2 className='About__h2'>Обратная связь</h2>
+							<h2 className='About__h2 lng-feedback'>Обратная связь</h2>
 							<ul className='About__list'>
 								<li className='About__list_item'>
 									<a
@@ -55,7 +58,7 @@ export default class About extends Component {
 						</div>
 
 						<div className='About__media'>
-							<h2 className='About__h2'>Мои группы</h2>
+							<h2 className='About__h2 lng-groups'>Мои группы</h2>
 							<ul className='About__list'>
 								<li className='About__list_item'>
 									<a
@@ -64,7 +67,7 @@ export default class About extends Component {
 										target='_blank'
 										rel='noreferrer'
 									>
-										VK-группа
+										VK
 									</a>
 								</li>
 								<li className='About__list_item'>
@@ -74,13 +77,13 @@ export default class About extends Component {
 										target='_blank'
 										rel='noreferrer'
 									>
-										Telegram-канал
+										Telegram
 									</a>
 								</li>
 							</ul>
 						</div>
 						<div className='About__portfolio'>
-							<h2 className='About__h2'>Мое портфолио</h2>
+							<h2 className='About__h2 lng-portfolio'>Мое портфолио</h2>
 							<ul className='About__list'>
 								<li className='About__list_item'>
 									<a
