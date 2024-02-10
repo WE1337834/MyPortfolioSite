@@ -23,6 +23,8 @@ export default class Contacts extends Component {
 								<a
 									className='Contents__contact'
 									href='https://github.com/WE1337834'
+									target='_blank'
+									rel='noreferrer'
 								>
 									<img
 										src={github}
@@ -30,14 +32,24 @@ export default class Contacts extends Component {
 										className='Contents__contact_link'
 									/>
 								</a>
-								<a className='Contents__contact' href='https://vk.com/we1337we'>
+								<a
+									className='Contents__contact'
+									href='https://vk.com/we1337we'
+									target='_blank'
+									rel='noreferrer'
+								>
 									<img
 										src={vk}
 										alt='vk-circled'
 										className='Contents__contact_link'
 									/>
 								</a>
-								<a className='Contents__contact' href='https://t.me/WE1337WE'>
+								<a
+									className='Contents__contact'
+									href='https://t.me/WE1337WE'
+									target='_blank'
+									rel='noreferrer'
+								>
 									<img
 										src={telegram}
 										alt='telegram-app'
@@ -59,6 +71,8 @@ export default class Contacts extends Component {
 								<a
 									className='Contents__contact'
 									href='https://vk.com/path_we1337'
+									target='_blank'
+									rel='noreferrer'
 								>
 									<img
 										src={vk}
@@ -69,6 +83,8 @@ export default class Contacts extends Component {
 								<a
 									className='Contents__contact'
 									href='https://t.me/path_WE1337'
+									target='_blank'
+									rel='noreferrer'
 								>
 									<img
 										src={telegram}
