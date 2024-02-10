@@ -2,13 +2,12 @@
 
 .Post {
 	width: 70%;
-	border: 2px solid black;
 	padding: 10px;
 	border-radius: 20px;
 	font-size: 20px;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 40px;
 }
 .Post__header {
 	height: 60px;
@@ -28,7 +27,14 @@
 .Post__header_nameGroup {
 	color: blue;
 }
-
+.Post__block {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 10px;
+}
 .Post__link {
 	display: inline;
 	width: 16%;
