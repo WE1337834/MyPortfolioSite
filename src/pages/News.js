@@ -15,7 +15,7 @@ class News extends React.Component {
 								<div className='News__changes'>
 									<ul className='News__list'>
 										<li className='News__list_change change_left'>
-											Добавил страницу "Контакты"
+											Добавил английский перевод
 										</li>
 									</ul>
 								</div>
