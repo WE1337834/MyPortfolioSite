@@ -13,6 +13,101 @@ export default class Blog extends Component {
 							<img src={group} className='Post_header_img' alt='' />
 							<div className='Post__header_name_date'>
 								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
+								<time className='Post__date' dateTime='2024-02-16T19:20'>
+									2024-02-16 19:20
+								</time>
+							</div>
+						</header>
+						<div className='Post__message'>
+							Не теряйте, я не пропал. Я готовился к устному собеседованию и ко
+							дню наук.
+							<a
+								className='Post__link'
+								href='https://github.com/WE1337834/MyPortfolioSite'
+							>
+								Code
+							</a>
+							<a className='Post__link' href='https://t.me/path_WE1337'>
+								Telegram
+							</a>
+							<a className='Post__link' href='https://vk.com/path_we1337'>
+								VK
+							</a>
+							<img
+								alt=''
+								className='Post__message_img'
+								src='https://sun9-54.userapi.com/impg/JmMzW4zSdbwMmkgpgDooGcZLRpLWO7lDLe4CPA/hLiszNQJ7tI.jpg?size=345x770&quality=96&sign=b10225a6f53cf9b71aefd0ee719c5b6f&type=album'
+							/>
+						</div>
+					</div>
+					<div className='Post__block'>
+						<header className='Post__header'>
+							<img src={group} className='Post_header_img' alt='' />
+							<div className='Post__header_name_date'>
+								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
+								<time className='Post__date' dateTime='2024-02-12T17:31'>
+									2024-02-12 17:31
+								</time>
+							</div>
+						</header>
+						<div className='Post__message'>
+							У меня кончились идеи для личного сайта, поэтому я буду делать
+							другие макеты.
+							<a
+								className='Post__link'
+								href='https://github.com/WE1337834/MyPortfolioSite'
+							>
+								Code
+							</a>
+							<a className='Post__link' href='https://t.me/path_WE1337'>
+								Telegram
+							</a>
+							<a className='Post__link' href='https://vk.com/path_we1337'>
+								VK
+							</a>
+							<img
+								alt=''
+								className='Post__message_img'
+								src='https://sun9-54.userapi.com/impg/JmMzW4zSdbwMmkgpgDooGcZLRpLWO7lDLe4CPA/hLiszNQJ7tI.jpg?size=345x770&quality=96&sign=b10225a6f53cf9b71aefd0ee719c5b6f&type=album'
+							/>
+						</div>
+					</div>
+					<div className='Post__block'>
+						<header className='Post__header'>
+							<img src={group} className='Post_header_img' alt='' />
+							<div className='Post__header_name_date'>
+								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
+								<time className='Post__date' dateTime='2024-02-11T00:14'>
+									2024-02-11 00:14
+								</time>
+							</div>
+						</header>
+						<div className='Post__message'>
+							Добавил английский перевод
+							<a
+								className='Post__link'
+								href='https://github.com/WE1337834/MyPortfolioSite'
+							>
+								Code
+							</a>
+							<a className='Post__link' href='https://t.me/path_WE1337'>
+								Telegram
+							</a>
+							<a className='Post__link' href='https://vk.com/path_we1337'>
+								VK
+							</a>
+							<img
+								alt=''
+								className='Post__message_img'
+								src='https://sun9-6.userapi.com/impg/WXflANQOKH7tQ0NbcrBvGe8stnaoeLg4HAKTPg/k2v3QOIJdbM.jpg?size=1866x922&quality=96&sign=113019e213a39a1e53cd13cac4d6718c&type=album'
+							/>
+						</div>
+					</div>
+					<div className='Post__block'>
+						<header className='Post__header'>
+							<img src={group} className='Post_header_img' alt='' />
+							<div className='Post__header_name_date'>
+								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
 								<time className='Post__date' dateTime='2024-02-09T20:02'>
 									2024-02-09 20:02
 								</time>
