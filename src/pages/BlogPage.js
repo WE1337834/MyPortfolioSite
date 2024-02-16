@@ -36,7 +36,7 @@ export default class Blog extends Component {
 							<img
 								alt=''
 								className='Post__message_img'
-								src='https://sun9-54.userapi.com/impg/JmMzW4zSdbwMmkgpgDooGcZLRpLWO7lDLe4CPA/hLiszNQJ7tI.jpg?size=345x770&quality=96&sign=b10225a6f53cf9b71aefd0ee719c5b6f&type=album'
+								src='https://sun9-24.userapi.com/impg/OzBW2gs3mwzH-aFYxA_gE8smMSJzdD3LWw2Emg/rmG8O3bWgFQ.jpg?size=1866x922&quality=96&sign=60ce91b6222198b8cb5a1bc04a76a1b1&type=album'
 							/>
 						</div>
 					</div>
