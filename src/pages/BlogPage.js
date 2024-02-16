@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import group from '../img/MyGroup.jpg'
+import bigimg from '../img/bigimg.png'
 import SideBar from '../Components/SideBar'
 import '../CSS/BlogPage.css'
 
@@ -65,11 +66,7 @@ export default class Blog extends Component {
 							<a className='Post__link' href='https://vk.com/path_we1337'>
 								VK
 							</a>
-							<img
-								alt=''
-								className='Post__message_img'
-								src='https://sun9-54.userapi.com/impg/JmMzW4zSdbwMmkgpgDooGcZLRpLWO7lDLe4CPA/hLiszNQJ7tI.jpg?size=345x770&quality=96&sign=b10225a6f53cf9b71aefd0ee719c5b6f&type=album'
-							/>
+							<img alt='' className='Post__message_img' src={bigimg} />
 						</div>
 					</div>
 					<div className='Post__block'>
