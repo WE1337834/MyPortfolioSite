@@ -13,6 +13,37 @@ export default class Blog extends Component {
 							<img src={group} className='Post_header_img' alt='' />
 							<div className='Post__header_name_date'>
 								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
+								<time className='Post__date' dateTime='2024-02-19T19:26'>
+									2024-02-19 19:26
+								</time>
+							</div>
+						</header>
+						<div className='Post__message'>
+							Доделал ПК версию. Можете зайти и оценить.😉
+							<a
+								className='Post__link'
+								href='https://github.com/WE1337834/MyPortfolioSite'
+							>
+								Code
+							</a>
+							<a className='Post__link' href='https://t.me/path_WE1337'>
+								Telegram
+							</a>
+							<a className='Post__link' href='https://vk.com/path_we1337'>
+								VK
+							</a>
+							<img
+								alt=''
+								className='Post__message_img'
+								src='https://sun9-10.userapi.com/impg/wuugqmoIXc-9dE1dfPhf8e8Fnh7wiMvHVJLYLw/aT3LYEDj2xs.jpg?size=1866x922&quality=96&sign=802b3da41a2b8aa1c9dc3834926d638f&type=album'
+							/>
+						</div>
+					</div>
+					<div className='Post__block'>
+						<header className='Post__header'>
+							<img src={group} className='Post_header_img' alt='' />
+							<div className='Post__header_name_date'>
+								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
 								<time className='Post__date' dateTime='2024-02-16T19:20'>
 									2024-02-16 19:20
 								</time>
