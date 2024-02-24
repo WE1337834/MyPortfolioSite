@@ -3,7 +3,6 @@ import '../CSS/News.css'
 import SideBar from '../Components/SideBar'
 import school from '../img/school.png'
 import simple from '../img/simple.png'
-import MyGroup from '../img/MyGroup.jpg'
 
 class News extends React.Component {
 	constructor(props) {
@@ -97,7 +96,7 @@ class News extends React.Component {
 									>
 										{slide > 0 && (
 											<img
-												alt={slide - 1}
+												alt=''
 												src={image[slide - 1]}
 												className='Portfolio__slide_item_sm'
 											/>
@@ -125,7 +124,7 @@ class News extends React.Component {
 									>
 										{slide < image.length - 1 && (
 											<img
-												alt={slide + 1}
+												alt=''
 												src={image[slide + 1]}
 												className='Portfolio__slide_item_sm'
 											/>
