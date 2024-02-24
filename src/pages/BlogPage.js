@@ -13,6 +13,68 @@ export default class Blog extends Component {
 							<img src={group} className='Post_header_img' alt='' />
 							<div className='Post__header_name_date'>
 								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
+								<time className='Post__date' dateTime='2024-02-21T22:20'>
+									2024-02-21 22:20
+								</time>
+							</div>
+						</header>
+						<div className='Post__message'>
+							Добавил немного адаптивности для маленьких-больших мониторов.
+							<a
+								className='Post__link'
+								href='https://github.com/WE1337834/MyPortfolioSite'
+							>
+								Code
+							</a>
+							<a className='Post__link' href='https://t.me/path_WE1337'>
+								Telegram
+							</a>
+							<a className='Post__link' href='https://vk.com/path_we1337'>
+								VK
+							</a>
+							<img
+								alt=''
+								className='Post__message_img'
+								src='https://sun9-49.userapi.com/impg/AOGanW0JrxqH7YeQK23Si7xEn1X1d3_Y1WTS1w/8mq94exYnDM.jpg?size=1866x922&quality=96&sign=be9d9a3c98568387a2c450bcc75838af&type=album'
+							/>
+						</div>
+					</div>
+					<div className='Post__block'>
+						<header className='Post__header'>
+							<img src={group} className='Post_header_img' alt='' />
+							<div className='Post__header_name_date'>
+								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
+								<time className='Post__date' dateTime='2024-02-21T22:20'>
+									2024-02-21 22:20
+								</time>
+							</div>
+						</header>
+						<div className='Post__message'>
+							Добавил немного адаптивности для маленьких-больших мониторов.
+							<a
+								className='Post__link'
+								href='https://github.com/WE1337834/MyPortfolioSite'
+							>
+								Code
+							</a>
+							<a className='Post__link' href='https://t.me/path_WE1337'>
+								Telegram
+							</a>
+							<a className='Post__link' href='https://vk.com/path_we1337'>
+								VK
+							</a>
+							<img
+								alt=''
+								className='Post__message_img'
+								src='https://sun9-31.userapi.com/impg/YEzMFqB--xfgXMYdx9N9A_-UyryZnQNtcexz-Q/PRRMYxPhsQw.jpg?size=1866x922&quality=96&sign=e952ebb3d8188dedbffa1664cf4d9d67&type=album'
+							/>
+						</div>
+					</div>
+					<div className='Post__block'>
+						<header className='Post__header'>
+							<img src={group} className='Post_header_img' alt='' />
+							<div className='Post__header_name_date'>
+								<p className='Post__header_nameGroup lng-path'>Мой путь в IT</p>
 								<time className='Post__date' dateTime='2024-02-19T19:26'>
 									2024-02-19 19:26
 								</time>

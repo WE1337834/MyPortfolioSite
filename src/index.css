@@ -13,8 +13,9 @@ main {
 	display: flex;
 	margin: 30px auto;
 	gap: 3%;
+	flex-direction: column;
+	gap: 20px;
 }
 a {
 	text-decoration: none;
 }
-
