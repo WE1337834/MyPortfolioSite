@@ -73,5 +73,13 @@ const lang = {
 		ru: 'Подписчиков: ',
 		en: 'Subscribers: ',
 	},
+	next: {
+		ru: 'Вперед',
+		en: 'Next',
+	},
+	back: {
+		ru: 'Назад',
+		en: 'Back',
+	},
 }
 export default lang

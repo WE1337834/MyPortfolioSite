@@ -122,6 +122,7 @@
 	width: 24vw;
 	height: 24vh;
 	border-radius: 20px;
+	box-shadow: var(--box_shadow);
 }
 
 .Portfolio__slide_item_sm,

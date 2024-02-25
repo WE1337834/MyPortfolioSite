@@ -70,18 +70,18 @@ class News extends React.Component {
 				</section>
 				<section className='Portfolio'>
 					<div className='Portfolio__block'>
-						<h1 className='Portfolio__title'>Мое портфолио</h1>
+						<h1 className='Portfolio__title lng-portfolio'>Мое портфолио</h1>
 						<div className='Portfolio__content'>
 							<div className='Portfolio__slider'>
 								<div className='Portfolio_button'>
 									<button
-										className='Portfolio__btn'
+										className='Portfolio__btn lng-back'
 										onClick={() => this.slide(-1)}
 									>
 										Назад
 									</button>
 									<button
-										className='Portfolio__btn'
+										className='Portfolio__btn lng-next'
 										onClick={() => this.slide(+1)}
 									>
 										Вперед
